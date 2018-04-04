@@ -1,0 +1,28 @@
+
+ 
+#----Two pass Assembler----#
+#----AKSHAT ARORA----#
+
+Run assembler.cpp ONLY. 
+
+Run this cmnd in terminal - g++ -std=c++0x assembler.cpp  and then run ./a.out to see the output
+
+By default, input file is "input.txt". Can be changed in pass1() function in assembler.cpp
+
+->"object.txt" shows the object program
+
+->"list.txt" shows the listing file with the object code
+
+->"error.txt" shows the errors.
+
+
+
+
+#-------FEATURES IMPLEMENTED----------#
+
+-> Different addressing modes for SIC/XE
+-> Program Blocks
+-> Object Program
+-> Literals and expressions
+-> Error Handling
+-> Listing File (including Object Code)
